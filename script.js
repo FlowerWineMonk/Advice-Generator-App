@@ -4,7 +4,6 @@ const renderNewAdviceBtn = document.querySelector(".icon-button");
 let advice;
 
 const adviceGeneratorDisplay = function (data) {
-  container.innerHTML = "";
   advice = `
     <div class="container">
       <p class = "advice-id">ADVICE #${data.id}</p>
@@ -12,6 +11,7 @@ const adviceGeneratorDisplay = function (data) {
       <img class = "divider" src="images/pattern-divider-desktop.svg" alt="" class="divider">
     </div>
     `;
+  container.innerHTML = "";
   container.insertAdjacentHTML("beforeend", advice);
 };
 
