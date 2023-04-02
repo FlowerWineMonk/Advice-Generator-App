@@ -51,13 +51,11 @@ body {
   bottom: -30px;
   left: 50%;
   transform: translateX(-50%);
-  align-self: center;
   background-color: hsl(150, 100%, 66%);
   border: none;
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  margin-top: 75px;
   cursor: pointer;
 }
 
