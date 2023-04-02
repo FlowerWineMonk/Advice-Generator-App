@@ -5,7 +5,7 @@ const renderNewAdviceBtn = document.querySelector(".icon-button");
 
 const adviceGeneratorDisplay = function (id, text) {
   advice_id.textContent = `ADVICE #${id}`;
-  advice_generator.textContent = text;
+  advice_generator.textContent = `"${text}"`;
 };
 
 const adviceGeneratorFunction = async function () {
