@@ -25,6 +25,7 @@ const adviceGeneratorFunction = async function () {
     console.error(err);
   }
 };
+adviceGeneratorFunction();
 
 renderNewAdviceBtn.addEventListener("click", function () {
   adviceGeneratorFunction();
