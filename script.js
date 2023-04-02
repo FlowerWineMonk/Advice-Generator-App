@@ -3,8 +3,6 @@ const advice_id = document.querySelector(".advice-id");
 const advice_generator = document.querySelector(".advice-generator");
 const renderNewAdviceBtn = document.querySelector(".icon-button");
 
-let advice;
-
 const adviceGeneratorDisplay = function (id, text) {
   advice_id.textContent = `ADVICE #${id}`;
   advice_generator.textContent = text;
